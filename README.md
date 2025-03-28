@@ -1,3 +1,5 @@
+![User Management App](https://your-image-url.com/screenshot.png)
+
 
 This User Management Application is built using React and integrates with the Reqres API to manage users efficiently. It provides key functionalities such as user authentication, user listing with pagination, editing user details, and deleting users. The authentication feature allows users to log in using credentials, and upon successful login, the application retrieves and displays a paginated list of users. Users can edit their details, which updates the data through an API call, and also delete users from the list. The app ensures security by implementing protected routes, redirecting users to the login page if they are not authenticated.
 
