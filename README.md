@@ -7,5 +7,5 @@ The key API endpoints used include POST /api/login for authentication, GET /api/
 
 The folder structure is well-organized, with components for reusable UI elements, pages for different views (Login, Users, Edit), and a Reactbits directory for additional utilities. The app also includes client-side search and filtering, React Router-based navigation, custom hooks for API calls, and a responsive UI built with Tailwind CSS.
 
-The project is authored by **Kajal Tiwari**, and the GitHub repository can be found [here](https://github.com/Kajaltiwari892).  
+The project is authored by **Kajal Tiwari**, and the GitHub repository can be found [here](https://github.com/Kajaltiwari892/user-manage/tree/main).  
 You can check out the **live demo** of the project [here](https://Kajaltiwari892.github.io/user-manage).
