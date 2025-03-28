@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Login from './pages/Login';
 import UserList from './pages/UserList';
 import LandingPage from './pages/LandingPage';
@@ -11,7 +11,7 @@ const PrivateRoute = ({ children }) => {
 
 function App() {
   return (
-    <Router>
+   
       <Routes>
         <Route path='/' element={<LandingPage />}/>
         <Route path="/login" element={<Login />} />
@@ -27,7 +27,7 @@ function App() {
         />
         <Route path="/" element={<Navigate to="/login" replace />} />
       </Routes>
-    </Router>
+   
   );
 }
 
