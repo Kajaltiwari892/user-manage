@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import Login from './pages/Login';
 import UserList from './pages/UserList';
 import LandingPage from './pages/LandingPage';
-import Signup from './pages/SignUp';
+import SignUp from './pages/SignUp';
 
 const PrivateRoute = ({ children }) => {
   const token = localStorage.getItem('token');
@@ -15,7 +15,7 @@ function App() {
       <Routes>
         <Route path='/' element={<LandingPage />}/>
         <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
+        <Route path="/signup" element={<SignUp />} />
 
         <Route
           path="/users"

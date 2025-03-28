@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { EnvelopeIcon, LockClosedIcon, UserIcon } from '@heroicons/react/24/outline';
 import { ExclamationTriangleIcon } from '@heroicons/react/24/solid';
 
-const Signup = () => {
+const SignUp = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -179,4 +179,4 @@ const Signup = () => {
   );
 };
 
-export default Signup;
+export default SignUp;
